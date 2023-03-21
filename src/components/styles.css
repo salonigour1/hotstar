@@ -1,0 +1,71 @@
+/*  /* .slick-dots li.slick-active button:before {
+  color: blue;
+}*/
+/* .slick-prev:before,
+.slick-next:before {
+  opacity: 0;
+}
+.slider {
+  background: transparent;
+}
+
+*/
+/* .slider button {
+  opacity: 0;
+}
+.slider button:hover {
+  opacity: 1;
+} */
+.slick-dots li.slick-active button:before {
+  color: rgb(183, 183, 183);
+}
+.slick-dots li button:before {
+  color: rgb(66, 66, 66);
+  background: transparent;
+  font-size: 10px;
+}
+h3 {
+  background: transparent;
+}
+ul.slick-dots {
+  background-color: transparent;
+}
+.slick-prev:before,
+.slick-next:before {
+  opacity: 0;
+}
+.slick-prev:before:hover,
+.slick-next:before:hover {
+  opacity: 1;
+}
+.slick-list {
+  overflow: initial;
+}
+
+.links {
+  color: #f9f9f91a;
+  padding: 6px;
+  /* box-shadow: rgb(0 0 0/ 69%) 0px 26px 36px -10px,
+    rgb(0 0 0/ 73%) 0px 16px 10px -10px; */
+  outline: none;
+}
+.images {
+  box-shadow: rgb(0 0 0/ 69%) 0px 26px 36px -10px,
+    rgb(0 0 0/ 73%) 0px 16px 10px -10px;
+}
+.check {
+  box-shadow: rgb(0 0 0/ 69%) 0px 26px 36px -10px,
+    rgb(0 0 0/ 73%) 0px 16px 10px -10px;
+}
+video {
+  opacity: 0;
+  color: #00000080;
+}
+video:hover {
+  opacity: 1;
+}
+.check:hover {
+  box-shadow: rgb(0 0 0/ 80%) 0px 40px 58px -16px,
+    rgb(0 0 0/ 73%) 0px 30px 72px -10px;
+  transform: scale(1.05);
+}

@@ -1,0 +1,59 @@
+/*  /* .slick-dots li.slick-active button:before {
+  color: blue;
+}*/
+/* .slick-prev:before,
+.slick-next:before {
+  opacity: 0;
+}
+.slider {
+  background: transparent;
+}
+
+*/
+/* .slider button {
+  opacity: 0;
+}
+.slider button:hover {
+  opacity: 1;
+} */
+.slick-dots li.slick-active button:before {
+  color: rgb(183, 183, 183);
+}
+.slick-dots li button:before {
+  color: rgb(66, 66, 66);
+  background: transparent;
+  font-size: 10px;
+}
+h3 {
+  background: transparent;
+}
+ul.slick-dots {
+  background-color: transparent;
+}
+.slick-prev:before,
+.slick-next:before {
+  opacity: 0;
+}
+.slick-prev:before:hover,
+.slick-next:before:hover {
+  opacity: 1;
+}
+.slick-list {
+  overflow: initial;
+}
+
+/* @layer components {
+  .slider_images {
+    @apply p-6 rounded;
+  }
+} */
+.check {
+  box-shadow: rgb(0 0 0/ 69%) 0px 26px 36px -10px,
+    rgb(0 0 0/ 73%) 0px 16px 10px -10px;
+}
+video {
+  opacity: 0;
+}
+video:hover {
+  opacity: 1;
+}
