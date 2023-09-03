@@ -7,6 +7,7 @@ import Home from './components/Home';
 import MovieDetail from './components/MovieDetail';
 
 function App() {
+
   return (
     <>
       <Header />

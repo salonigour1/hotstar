@@ -6,7 +6,7 @@ import Cards from './Cards';
 
 function Recommend() {
   const recommend_movies = useSelector(selectRecommend);
-
+  console.log(recommend_movies);
   return (
     <>
       <div className='mt-4'>
