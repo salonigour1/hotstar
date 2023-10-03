@@ -20,7 +20,7 @@ function Home() {
     setLoading(true);
     setTimeout(() => setLoading(false), 2000);
   }, []);
-  console.log(loading);
+
   const dispatch = useDispatch();
   const username = useSelector(selectUserName);
   const fetchPost = async () => {
@@ -40,7 +40,7 @@ function Home() {
           new_disney.push({ id: curr.id, ...curr.data() });
         return { id: curr.id, ...curr.data() };
       });
-      console.log(newData);
+
       dispatch(
         setMovie({
           allMovies: newData,
